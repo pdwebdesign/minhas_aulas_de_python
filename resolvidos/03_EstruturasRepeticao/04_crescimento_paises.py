@@ -7,8 +7,8 @@ crescimentoB = 1.015
 # Realiza calculo de anos
 ano = 1
 while populacaoA <= populacaoB:
-    populacaoA = populacaoA * crescimentoA
-    populacaoB = populacaoB * crescimentoB
+    populacaoA *= crescimentoA
+    populacaoB *= crescimentoB
     ano += 1
 
 # Imprime o resultado

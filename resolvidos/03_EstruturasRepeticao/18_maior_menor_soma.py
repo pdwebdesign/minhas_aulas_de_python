@@ -1,16 +1,16 @@
 quantidade = 0
-while quantidade <= 0:
+while (quantidade <= 0):
     quantidade = int(input('Voce quer informar quantos numeros: '))
-    if quantidade <= 0:
+    if (quantidade <= 0):
         print('Quantidade deve ser positiva!')
 
 soma = 0
 for i in range(0, quantidade):
     numero = int(input('Informe um numero: '))
-    if 'maior' not in vars() or numero > maior:
+    if ('maior' not in vars()) or (numero > maior):
         maior = numero
 
-    if 'menor' not in vars() or numero < menor:
+    if ('menor' not in vars()) or (numero < menor):
         menor = numero
 
     soma += numero

@@ -1,12 +1,12 @@
-base = int(input('Informe o valor da base: '))
+base = int(raw_input('Informe o valor da base: '))
 expoente = 0
 while (expoente <= 0):
-    expoente = int(input('Informe o valor do expoente: '))
+    expoente = int(raw_input('Informe o valor do expoente: '))
     if (expoente <= 0):
-        print('O expoente deve ser positivo!')
+        print 'O expoente deve ser positivo!'
 
 potencia = 1
 for i in range(1, expoente + 1):
     potencia *= base
 
-print(base, 'elevada a', expoente, '=', potencia)
+print base, 'elevada a', expoente, '=', potencia

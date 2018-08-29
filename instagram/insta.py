@@ -27,7 +27,7 @@ def print_all_links(page):
             break
     return palavras
 
-palavra_recebida = input("Digite uma palavra:\n")
+palavra_recebida = input("Digite uma palavra\n")
 palavra_escrita = palavra_recebida + "/"
 page = get_page("https://www.instagram.com/explore/tags/"+palavra_escrita)
 
@@ -41,7 +41,6 @@ print(lista)
 dicionario = {}
 for i in range(0,len(lista)):
     dicionario[lista[i]] = lista.count(lista[i])
-
 
 
 from collections import OrderedDict

@@ -1,4 +1,4 @@
-    import math
+import math
 
 print 'Calculo de equacao de Segundo Grau'
 valorA = float(raw_input('Informe o valor de a : '))

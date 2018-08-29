@@ -12,5 +12,5 @@ class Funcionario:
 
 # TESTE DA CLASSE
 func1 = Funcionario('Joao', 1000)
-print('Nome: %s' % func1.getNome())
-print('Salario: %.2f' % func1.getSalario())
+print 'Nome: %s' % func1.getNome()
+print 'Salario: %.2f' % func1.getSalario()
