@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../arquivo_excel/.idea/arquivo_excel.iml" filepath="$PROJECT_DIR$/../arquivo_excel/.idea/arquivo_excel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../aula1/.idea/aula1.iml" filepath="$PROJECT_DIR$/../aula1/.idea/aula1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../aula2/.idea/aula2.iml" filepath="$PROJECT_DIR$/../aula2/.idea/aula2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../aula2a/.idea/aula2a.iml" filepath="$PROJECT_DIR$/../aula2a/.idea/aula2a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../aula3_tarde/.idea/aula3_tarde.iml" filepath="$PROJECT_DIR$/../aula3_tarde/.idea/aula3_tarde.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../aula4/.idea/aula4.iml" filepath="$PROJECT_DIR$/../aula4/.idea/aula4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../aula_classe/.idea/aula_classe.iml" filepath="$PROJECT_DIR$/../aula_classe/.idea/aula_classe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../aulapython/.idea/aulapython.iml" filepath="$PROJECT_DIR$/../aulapython/.idea/aulapython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../capitulo5/.idea/capitulo5.iml" filepath="$PROJECT_DIR$/../capitulo5/.idea/capitulo5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../capitulo6/.idea/capitulo6.iml" filepath="$PROJECT_DIR$/../capitulo6/.idea/capitulo6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../capitulo7/.idea/capitulo7.iml" filepath="$PROJECT_DIR$/../capitulo7/.idea/capitulo7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../exercicios_slides/.idea/exercicios_slides.iml" filepath="$PROJECT_DIR$/../exercicios_slides/.idea/exercicios_slides.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../leitura_de_arquivos/.idea/leitura_de_arquivos.iml" filepath="$PROJECT_DIR$/../leitura_de_arquivos/.idea/leitura_de_arquivos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lista_exercicios/.idea/lista_exercicios.iml" filepath="$PROJECT_DIR$/../lista_exercicios/.idea/lista_exercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ordenacao/.idea/ordenacao.iml" filepath="$PROJECT_DIR$/../ordenacao/.idea/ordenacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../projeto_final/.idea/projeto_final.iml" filepath="$PROJECT_DIR$/../projeto_final/.idea/projeto_final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../prova/.idea/prova.iml" filepath="$PROJECT_DIR$/../prova/.idea/prova.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../prova_final/.idea/prova_final.iml" filepath="$PROJECT_DIR$/../prova_final/.idea/prova_final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../string/.idea/string.iml" filepath="$PROJECT_DIR$/../string/.idea/string.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/url.iml" filepath="$PROJECT_DIR$/.idea/url.iml" />
+    </modules>
+  </component>
+</project>
