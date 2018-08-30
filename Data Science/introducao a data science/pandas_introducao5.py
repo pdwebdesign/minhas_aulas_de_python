@@ -55,3 +55,4 @@ if True:
     print(football[football.wins > 10])
     print('\nfootball[(football.wins > 10) & (football.team == "Packers")]\n')
     print(football[(football.wins > 10) & (football.team == "Packers")])
+    print("media\n")
