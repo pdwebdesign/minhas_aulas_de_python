@@ -2,10 +2,10 @@ import requests
 
 def get_page(page):
     page = requests.get(page)
-    print(page)
-    print(page.status_code)
+    #print(page)
+    #print(page.status_code)
     page = str(page.content)
-    print(page)
+    #print(page)
     return page
 
 def get_next_target(page):
@@ -27,30 +27,31 @@ def print_all_links(page):
             break
     return palavras
 
-palavra_recebida = input("Digite uma palavra\n")
-palavra_escrita = palavra_recebida + "/"
-page = get_page("https://www.instagram.com/explore/tags/"+palavra_escrita)
+while True:
+    palavra_recebida = input("Digite uma palavra\n")
+    palavra_escrita = palavra_recebida + "/"
+    page = get_page("https://www.instagram.com/explore/tags/"+palavra_escrita)
 
-file = open("hastag_"+palavra_recebida+".txt","wt")
-file.write(page)
-file.close()
+    file = open("hastag_"+palavra_recebida+".txt","wt")
+    file.write(page)
+    file.close()
 
-lista = print_all_links(page)
-print(lista)
+    lista = print_all_links(page)
+    print(lista)
 
-dicionario = {}
-for i in range(0,len(lista)):
-    dicionario[lista[i]] = lista.count(lista[i])
+    dicionario = {}
+    for i in range(0,len(lista)):
+        dicionario[lista[i]] = lista.count(lista[i])
 
 
-from collections import OrderedDict
-dicionario_ordered = OrderedDict(sorted(dicionario.items(), key=lambda t: t[1]))
+    from collections import OrderedDict
+    dicionario_ordered = OrderedDict(sorted(dicionario.items(), key=lambda t: t[1]))
 
-file_new = open("hashtag_"+palavra_recebida+"_numeros.txt","wt")
-for k, v in dicionario_ordered.items():
-    print(' {0} \t : {1}'.format(k,v))
-    file_new.write(' {0} \t : {1}'.format(k,v))
-    file_new.write("\n")
-file_new.close()
+    file_new = open("hashtag_"+palavra_recebida+"_numeros.txt","wt")
+    for k, v in dicionario_ordered.items():
+        print(' {0} \t : {1}'.format(k,v))
+        file_new.write(' {0} \t : {1}'.format(k,v))
+        file_new.write("\n")
+    file_new.close()
 
 
