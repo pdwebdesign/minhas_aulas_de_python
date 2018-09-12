@@ -1,5 +1,6 @@
-lista = ["pedro","hugo","marcela"]
-print(lista[2])
-for item in range(0,3):
-    print("item: ", lista[item])
 
+lista = [100,15,200,150,23]
+print(lista)
+print(lista[0])
+lista[0] = lista[1]
+print(lista)
