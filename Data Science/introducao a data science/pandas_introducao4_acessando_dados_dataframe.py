@@ -26,12 +26,12 @@ df = create_dataframe()
 #print(df['cidades'])
 #print(df[['cidades','bronze']])
 #APENAS A LINHA
-#print(df.loc[1])
+#print(df.loc[0])
 #print(df.loc[4:10])
 
 #condicoes:
-print(df[df['bronze']>=9])
-print("PEGAR OURO MAS APENAS QUE O BRONZE FOR MAIOR QUE 9")
+#print(df[df['bronze']>=9])
+#print("PEGAR OURO MAS APENAS QUE O BRONZE FOR MAIOR QUE 9")
 print(df['ouro'][df['bronze']>=9])
 
 
