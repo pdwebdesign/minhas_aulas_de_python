@@ -54,6 +54,14 @@ vendas = []
 categorias = []
 id_atual = 0
 
+def cadastrarCategoria(nome):
+    # adicionar o nome e o valor 0 para inicializar a categoria
+    pass
+
+def relatorioCategoria():
+    # retornar nome e a quantidade de venda daquela categoria
+    pass
+
 def cadastrarProduto(nome,preco,desc,categoria,qnt):
     pass
 
@@ -69,12 +77,6 @@ def procurarNome(nome):
 def realizarVenda(lista_itens):
     pass
 
-def cadastrarCategoria(nome):
-    pass
-
-def relatorioCategoria():
-    pass
-
 def converte():
     pass
         
@@ -82,7 +84,12 @@ def carrega():
     pass
     
 def salva():
-    pass
+    file = open('categorias.csv', 'w', encoding='utf8')
+    wt = csv.writer(file, lineterminator='\n')
+    wt.writerows(categorias)
+    file.close()
+
+    #agora bora fazer um arquivo para vendas e produtos
 
 
 

@@ -54,6 +54,17 @@ vendas = []
 categorias = []
 id_atual = 0
 
+def cadastrarCategoria(nome):
+    #adicionar o nome e o valor 0 para inicializar a categoria
+    categorias.append([nome, 0])
+
+def relatorioCategoria():
+    #retornar nome e a quantidade de venda daquela categoria
+    lista_categorias = ''
+    for cat in categorias:
+        lista_categorias += cat[0] + '\t' + str(cat[1]) + '\n'
+    return lista_categorias
+
 def cadastrarProduto(nome,preco,desc,categoria,qnt):
     pass
 
@@ -67,12 +78,6 @@ def procurarNome(nome):
     pass
 
 def realizarVenda(lista_itens):
-    pass
-
-def cadastrarCategoria(nome):
-    pass
-
-def relatorioCategoria():
     pass
 
 def converte():
