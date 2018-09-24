@@ -1,24 +1,11 @@
 import requests
 import pandas as pd
-
 from bs4 import BeautifulSoup
 
 page = "http://www.yahii.com.br/dolar.html"
-
 page = requests.get(page)
 page = str(page.content)
-
 soup = BeautifulSoup(page,"html.parser")
-'''
-print(soup.title)
-print(soup.title.string)
-
-print(soup.a)
-print(soup.find_all("a"))
-'''
-all_links = soup.find_all("a")
-for link in all_links:
-    link.get("href")
 
 all_tables = soup.find_all('table')
 nova_tabela = soup.find('table')
