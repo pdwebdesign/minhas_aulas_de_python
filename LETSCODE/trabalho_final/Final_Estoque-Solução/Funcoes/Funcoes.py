@@ -26,6 +26,8 @@ def removerItem(listaItens,nome):
             listaItens.remove(item)
 
 
+
+
 #A função recebe uma lista, um nome e um valor
 #Encontre o itens cujo o nome contenha o nome dado ou tenha o mesmo valor
 #Salve estes item em uma nova lista retorne esta lista
@@ -36,8 +38,3 @@ def filtro(listaItens,nome,valor):
             lista.append(item)
     return lista
 
-#A função recebe uma lista
-#Inprima todos os intes no terminal
-def imprimeItem(listaItens):
-    for item in listaItenslista:
-    	print(item)
