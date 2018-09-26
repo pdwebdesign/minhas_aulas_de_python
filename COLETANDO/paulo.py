@@ -14,22 +14,36 @@ soup = BeautifulSoup(page,"html.parser")
 all_tables = soup.find_all("table")
 nova_tabela = soup.find("table")
 
-
 thead = nova_tabela.find("thead")
-#print(nova_tabela)
 
-#print(thead)
-
-tabela_data = [10,20,30,40,50,60,70,80,90,100]
+tabela_ano = []
+tabela_mes = []
 tabela_compra = []
 tabela_venda = []
 
-df = pd.DataFrame(tabela_data,columns=['Number'])
+
 for row in thead.find_all("th"):
-    valor = row.find(text=True)
-    print(valor)
-    df[valor] = tabela_data
+    if len(row) > 0:
+        valor_ano = row.find(text=True)
+        tabela_ano.append(valor_ano)
 
-print(df)
+for row in nova_tabela.find_all("tr"):
+    cells = row.find_all("td", class_="td-destaque")
+    if len(cells) > 0:
+        valor_mes = cells[0].find(text=True)
+        tabela_mes.append(valor_mes)
 
+for row in nova_tabela.find_all("tr"):
+    numero_coluna = 1
+    cells_dados = row.find_all("td")
+    while numero_coluna <= 18:
+        if len(cells_dados) > 10:
+            valor = cells_dados[numero_coluna].find(text=True)
+            if numero_coluna % 2 == 0:
+                tabela_venda.append(valor)
+            else:
+                tabela_compra.append(valor)
 
+        numero_coluna += 1
+print(tabela_compra)
+print(tabela_venda)
