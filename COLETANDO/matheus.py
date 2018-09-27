@@ -38,9 +38,22 @@ def coletando(page_nexa):
     df["Preço Nexa"] = tabela_valor_nexa
     print(df)
 
+def coletando_links():
+    link_completo = "https://finance.yahoo.com/quote/ACAD/history?p=ACAD"
 
-page = ["https://finance.yahoo.com/quote/NEXA/history/"]
 
-lista_name = ["PETR4.SA","NEXA",]
 
-coletando(page[0])
+#page = ["https://finance.yahoo.com/quote/NEXA/history/"]
+#lista_name = ["PETR4.SA","NEXA",]
+#coletando(page[0])
+numero = 25
+while numero < 90000:
+    numero = str(numero)
+    completo = "https://finance.yahoo.com/lookup/all?s=a&t=A&b=+"+numero+"&c="+numero
+    coletando(completo)
+
+
+
+    numero = int(numero)
+    numero += 25
+    print(completo)
