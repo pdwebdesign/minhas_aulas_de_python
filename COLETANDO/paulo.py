@@ -34,9 +34,8 @@ for row in nova_tabela.find_all("tr"):
         tabela_mes.append(valor_mes)
 
 for row in nova_tabela.find_all("tr"):
-    numero_coluna = 1
     cells_dados = row.find_all("td")
-    while numero_coluna <= 18:
+    for numero_coluna in range(1, 18):
         if len(cells_dados) > 10:
             valor = cells_dados[numero_coluna].find(text=True)
             if numero_coluna % 2 == 0:
@@ -44,6 +43,10 @@ for row in nova_tabela.find_all("tr"):
             else:
                 tabela_compra.append(valor)
 
-        numero_coluna += 1
-print(tabela_compra)
-print(tabela_venda)
+tabela_data = []
+
+for num_ano in range(0, len(tabela_ano) - 1):
+    for num_mes in range(0, len(tabela_mes) - 1):
+        index_data = tabela_ano[num_ano] + tabela_mes[num_mes]
+        print(index_data)
+        #tabela_data.append(index_data)
