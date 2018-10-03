@@ -32,9 +32,9 @@ while True:
     palavra_escrita = palavra_recebida + "/"
     page = get_page("https://www.instagram.com/explore/tags/"+palavra_escrita)
 
-    file = open("hastag_"+palavra_recebida+".txt","wt")
-    file.write(page)
-    file.close()
+    #file = open("hastag_"+palavra_recebida+".txt","wt")
+    #file.write(page)
+    #file.close()
 
     lista = print_all_links(page)
     print(lista)
@@ -47,11 +47,11 @@ while True:
     from collections import OrderedDict
     dicionario_ordered = OrderedDict(sorted(dicionario.items(), key=lambda t: t[1]))
 
-    file_new = open("hashtag_"+palavra_recebida+"_numeros.txt","wt")
+    #file_new = open("hashtag_"+palavra_recebida+"_numeros.txt","wt")
     for k, v in dicionario_ordered.items():
         print(' {0} \t : {1}'.format(k,v))
-        file_new.write(' {0} \t : {1}'.format(k,v))
-        file_new.write("\n")
-    file_new.close()
+        #file_new.write(' {0} \t : {1}'.format(k,v))
+        #file_new.write("\n")
+    #file_new.close()
 
 
