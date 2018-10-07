@@ -37,7 +37,7 @@ def coletando_precos(page,acao):
         valor = cells[5].find(text=True)
         tabela_data.append(data)
         tabela_valor.append(valor)
-        calculo = calculo + float(valor)
+        calculo = calculo + float(valor.replace(",","."))
         print(calculo)
 
     df["Data"+acao] = tabela_data
