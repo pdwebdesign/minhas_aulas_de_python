@@ -73,7 +73,7 @@ while i < 100:
     print(total_acoes)
     i += 1
 
-writer = pd.ExcelWriter('banco2.xlsx')
+writer = pd.ExcelWriter('banco3.xlsx')
 total_acoes.to_excel(writer)
 writer.save()
-total_acoes.to_csv('banco.csv',encoding='ISO-8859-1')
+total_acoes.to_csv('banco3.csv',encoding='ISO-8859-1')
