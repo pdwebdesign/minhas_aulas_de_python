@@ -36,6 +36,7 @@ def coletando_precos(page, acao):
         valor = valor.replace(".","").replace(",",".")
         valor = float(valor)
         retorno = np.log(valor_ant / valor)
+        retorno = float(retorno)
         tabela_data.append(data)
         tabela_valor.append(valor)
         if cont > 0:
@@ -51,17 +52,17 @@ lista_total_acoes = []
 numero = 0
 i = 0
 df = pd.DataFrame()
-while numero < 100:
+while numero < 10:
     numero = str(numero)
-    completo = "https://finance.yahoo.com/lookup/equity?s=a&t=A&b=" + numero + "&c=100"
+    completo = "https://finance.yahoo.com/lookup/equity?s=a&t=A&b=" + numero + "&c=10"
     total_acoes = coletando_acoes(completo)
     lista_total_acoes.extend(total_acoes)
     numero = int(numero)
-    numero += 100
+    numero += 10
 
 tamanho_lista = len(lista_total_acoes)
 
-while i < 100:
+while i < 10:
     acao = lista_total_acoes[i]
     print(acao)
 
