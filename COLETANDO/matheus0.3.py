@@ -45,40 +45,35 @@ def coletando_precos(page, acao):
     df["Data "+ acao] = tabela_data
     df["Preço " + acao] = tabela_valor
     df["Retorno " + acao] = tabela_retorno
-    #print(df)
     return df
 
 lista_total_acoes = []
 numero = 0
 i = 0
 df = pd.DataFrame()
-while numero < 10:
+while numero < 100:
     numero = str(numero)
-    completo = "https://finance.yahoo.com/lookup/equity?s=a&t=A&b=" + numero + "&c=10"
+    completo = "https://finance.yahoo.com/lookup/equity?s=a&t=A&b=" + numero + "&c=100"
     total_acoes = coletando_acoes(completo)
     lista_total_acoes.extend(total_acoes)
     numero = int(numero)
     numero += 100
-    print(completo)
 
 tamanho_lista = len(lista_total_acoes)
-print(lista_total_acoes)
-print(tamanho_lista)
 
-while i < 10:
+while i < 100:
     acao = lista_total_acoes[i]
     print(acao)
-    if acao == "AAPL" or acao == "HMNY" or acao == "T" or acao == "A" or acao == "AMAT" or "NIO":
-        i += 1
-    else:
-        completo = "https://finance.yahoo.com/quote/" + acao + "/history?p=" + acao
+
+    completo = "https://finance.yahoo.com/quote/" + acao + "/history?p=" + acao
+    try:
         total_acoes = coletando_precos(completo, acao)
-
+    except:
+        print("-------!!!!erro na acao:!!!!-------", acao)
+    print(total_acoes)
     i += 1
-    #print(completo)
 
-print(total_acoes)
-writer = pd.ExcelWriter('banco.xlsx')
+writer = pd.ExcelWriter('banco2.xlsx')
 total_acoes.to_excel(writer)
 writer.save()
 total_acoes.to_csv('banco.csv',encoding='ISO-8859-1')
