@@ -1,6 +1,8 @@
-idade = 18
-if idade != 18:
+idade = 16
+if idade >= 18:
     print("Dirigir")
+elif idade > 16 and idade < 18:
+    print("pode votar")
 else:
-    print("vou de taxi")
+    print("é igual ou menor que 16")
 

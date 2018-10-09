@@ -52,9 +52,9 @@ lista_total_acoes = []
 numero = 0
 i = 0
 df = pd.DataFrame()
-while numero < 10:
+while numero < 100:
     numero = str(numero)
-    completo = "https://finance.yahoo.com/lookup/equity?s=a&t=A&b=" + numero + "&c=10"
+    completo = "https://finance.yahoo.com/lookup/equity?s=a&t=A&b=" + numero + "&c=100"
     total_acoes = coletando_acoes(completo)
     lista_total_acoes.extend(total_acoes)
     numero = int(numero)
@@ -62,7 +62,7 @@ while numero < 10:
 
 tamanho_lista = len(lista_total_acoes)
 
-while i < 10:
+while i < 100:
     acao = lista_total_acoes[i]
     print(acao)
 
