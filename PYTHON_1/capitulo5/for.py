@@ -1,9 +1,10 @@
-site = "somos todos muito trabalhadores #amor #love , boa tarde"
-pos = site.find("#")
-if pos == -1:
-    print("nao tem #")
-esp = site.find(" ",pos)
-palavra = site[pos + 1:esp]
-print(palavra)
-site = site[esp:]
-print(site)
+pessoa = ["pedro","duarte",29,1197]
+pessoa.insert(2,"Daniel")
+#pessoa.append("daniel")
+print(pessoa)
+pessoa.remove("Daniel")
+print(pessoa)
+pessoa.remove(29)
+print(pessoa)
+numero = pessoa.pop()
+print(numero)
