@@ -78,7 +78,7 @@ print(lista)
 
 #Exercicio 10
 for cont in range(5):
-    lista[0] = float(lista[0])
+    lista[cont] = float(lista[cont])
 print(lista)
 
 #Exercicio 11
