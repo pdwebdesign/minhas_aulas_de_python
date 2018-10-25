@@ -1,3 +1,5 @@
-lista = [["arroz",10],["feijao",12]]
-imp = lista.index(["feijao",12])
-print(imp)
+import requests
+
+page = requests.get("https://www.instagram.com/explore/tags/amor/")
+page.encoding = 'ISO-8859-1'
+print(page.encoding)

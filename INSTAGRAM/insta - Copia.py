@@ -4,8 +4,8 @@ def get_page(page):
     page = requests.get(page)
     #print(page)
     #print(page.status_code)
-    page = str(page.content)
-    print(page)
+    page.encoding = 'ISO-8859-1'
+    page = str(page.text)
     return page
 
 def get_next_target(page):
@@ -48,8 +48,8 @@ while True:
     dicionario_ordered = OrderedDict(sorted(dicionario.items(), key=lambda t: t[1]))
 
     #file_new = open("hashtag_"+palavra_recebida+"_numeros.txt","wt")
-    #for k, v in dicionario_ordered.items():
-        #print(' {0} \t : {1}'.format(k,v))
+    for k, v in dicionario_ordered.items():
+        print(' {0} \t : {1}'.format(k,v))
         #file_new.write(' {0} \t : {1}'.format(k,v))
         #file_new.write("\n")
     #file_new.close()
