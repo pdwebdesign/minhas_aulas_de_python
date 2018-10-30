@@ -1,7 +1,10 @@
-a = input("digita cateto a\n")
-b = input("digita cateto b\n")
-
-h = (float(a)**2 + float(b)**2)**0.5
-
-print(h)
+numero = int(input("Usuario digite seu numero:\n"))
+print(numero)
+numero2 = int(input("Usuario digite seu numero:\n"))
+print(numero2)
+soma = numero + numero2
+print(soma)
+print(sub)
+print(div)
+print(mult)
 
