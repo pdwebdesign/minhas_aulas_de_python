@@ -1,8 +1,7 @@
 import random
 #buble
-'''
 A = []
-for i in range(0,10000):
+for i in range(0,100):
     numero = random.randint(0,100)
     A.append(numero)
 
@@ -33,3 +32,4 @@ def insertionSort(alist):
 alist = [54,26,93,17,77,31,44,55,20]
 insertionSort(alist)
 print(alist)
+'''

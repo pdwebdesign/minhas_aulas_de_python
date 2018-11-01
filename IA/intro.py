@@ -4,8 +4,6 @@ class No(object):
         self.value = value
         self.left = left
         self.right = right
-    def __str__(self):
-        return str(self.key)
     def get(self, key):
         if key < self.key:
             return self.left.get(key) if self.left else None
@@ -13,8 +11,9 @@ class No(object):
             return self.right.get(key) if self.right else None
         else:
             return self
+
     def add(self, node):
-        if node.key < self.key:
+        if node.value < self.value:
             if self.left is None:
                 self.left = node
             else:
@@ -32,7 +31,8 @@ class No(object):
         if node is None:
             setattr(self, side, No(key))
         else:
-            node.add(key)
+            node.add2(key)
+
     def traverse(self, visit, order='pre'):
         """Percorre a árvore na ordem fornecida como parâmetro (pre, pos ou in)
            visitando os nós com a função visit() recebida como parâmetro.
@@ -51,10 +51,14 @@ class No(object):
 root = No(42)
 root.left = No(10)
 root.right = No(90)
+print(root.key)
 root.left.left = No(2)
+found = root.get(90)
+if found:
+    print(found.key)
 
-novo = No(30)
-
-#root.add(novo)
-
-root.traverse(print, 'in')
+#arvore desbalanceada
+tree = No(0)
+for i in range(1, 10):
+    tree.add2(i)
+tree.traverse(print, 'in')

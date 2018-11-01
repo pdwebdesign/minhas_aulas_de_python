@@ -5,3 +5,4 @@ for i in lista:
     if lista[i]%2 ==0:
        contador=contador+1
 print(contador)
+
