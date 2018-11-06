@@ -38,7 +38,7 @@ def busca_em_largura(grafo, vertice_do_grafo):
                 nivel[vizinho] = nivel[vertice] + 1 # um vizinho estah sempre um nivel abaixo do pai
             # MOMENTO PARA VISITAR A ARESTA vertice -> vizinho
             # (descomente os codigos abaixo para ver a ordem em que as arestas sao visitadas e suas respectivas classificacoes)
-            # print('%s -> %s:' % (str(vertice), str(vizinho)))
+            print('%s -> %s:' % (str(vertice), str(vizinho)))
             if pai[vizinho] == vertice or pai[vertice] == vizinho:
                 aresta[(vertice, vizinho)] = 'aresta de arvore'
                 # print('aresta de arvore')
