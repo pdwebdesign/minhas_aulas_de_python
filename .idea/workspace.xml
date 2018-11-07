@@ -340,6 +340,7 @@
   </component>
   <component name="RunManager" selected="Python.teste_index">
     <configuration name="Funcoes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -350,13 +351,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LETSCODE/trabalho_final/Final_Estoque-Solução/Funcoes/Funcoes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="alteravalor" type="PythonConfigurationType" factoryName="Python">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -367,13 +372,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/capitulo7/alteravalor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="argumentos" type="PythonConfigurationType" factoryName="Python">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -384,13 +393,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/capitulo7/argumentos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="asteroid invasion" type="PythonConfigurationType" factoryName="Python">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -401,13 +414,17 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/Dropbox/LETS CODE/AULAS/PYTHON/asteroid-invasion-master/asteroid-invasion-master/asteroid invasion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="aula1" type="PythonConfigurationType" factoryName="Python">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -418,13 +435,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula1/aula1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="aula1_06" type="PythonConfigurationType" factoryName="Python">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -435,13 +456,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula1_06.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="aumento_salario" type="PythonConfigurationType" factoryName="Python">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -452,13 +477,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/capitulo7/aumento_salario.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="cortar" type="PythonConfigurationType" factoryName="Python">
+      <module name="imagem" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -469,13 +498,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="imagem" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imagem/cortar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="hashtag (1)" type="PythonConfigurationType" factoryName="Python">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -486,13 +519,17 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="C:/copila/hashtag.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="hastag1.0" type="PythonConfigurationType" factoryName="Python">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -503,13 +540,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/url/hastag1.0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="instanciandoumaclasse" type="PythonConfigurationType" factoryName="Python">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -520,13 +561,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/capitulo8/instanciandoumaclasse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -537,13 +582,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LETSCODE/trabalho_final/Final_Estoque-Solução/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -554,13 +603,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LETSCODE/trabalho_final/Final_Estoque-alunos/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="mestre" type="PythonConfigurationType" factoryName="Python">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -571,13 +624,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula4/mestre.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="recursivo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -588,13 +645,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursivo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="salario" type="PythonConfigurationType" factoryName="Python">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -605,13 +666,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/capitulo7/salario.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="teste_index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -622,43 +687,43 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teste_index.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <list size="17">
-      <item index="0" class="java.lang.String" itemvalue="Python.argumentos" />
-      <item index="1" class="java.lang.String" itemvalue="Python.cortar" />
-      <item index="2" class="java.lang.String" itemvalue="Python.aula1_06" />
-      <item index="3" class="java.lang.String" itemvalue="Python.asteroid invasion" />
-      <item index="4" class="java.lang.String" itemvalue="Python.aula1" />
-      <item index="5" class="java.lang.String" itemvalue="Python.hastag1.0" />
-      <item index="6" class="java.lang.String" itemvalue="Python.hashtag (1)" />
-      <item index="7" class="java.lang.String" itemvalue="Python.alteravalor" />
-      <item index="8" class="java.lang.String" itemvalue="Python.mestre" />
-      <item index="9" class="java.lang.String" itemvalue="Python.aumento_salario" />
-      <item index="10" class="java.lang.String" itemvalue="Python.salario" />
-      <item index="11" class="java.lang.String" itemvalue="Python.instanciandoumaclasse" />
-      <item index="12" class="java.lang.String" itemvalue="Python.recursivo" />
-      <item index="13" class="java.lang.String" itemvalue="Python.main" />
-      <item index="14" class="java.lang.String" itemvalue="Python.Funcoes" />
-      <item index="15" class="java.lang.String" itemvalue="Python.main (1)" />
-      <item index="16" class="java.lang.String" itemvalue="Python.teste_index" />
+    <list>
+      <item itemvalue="Python.argumentos" />
+      <item itemvalue="Python.cortar" />
+      <item itemvalue="Python.aula1_06" />
+      <item itemvalue="Python.asteroid invasion" />
+      <item itemvalue="Python.aula1" />
+      <item itemvalue="Python.hastag1.0" />
+      <item itemvalue="Python.hashtag (1)" />
+      <item itemvalue="Python.alteravalor" />
+      <item itemvalue="Python.mestre" />
+      <item itemvalue="Python.aumento_salario" />
+      <item itemvalue="Python.salario" />
+      <item itemvalue="Python.instanciandoumaclasse" />
+      <item itemvalue="Python.recursivo" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.Funcoes" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.teste_index" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.teste_index" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Funcoes" />
-        <item index="3" class="java.lang.String" itemvalue="Python.main" />
-        <item index="4" class="java.lang.String" itemvalue="Python.recursivo" />
+      <list>
+        <item itemvalue="Python.teste_index" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.Funcoes" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.recursivo" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />

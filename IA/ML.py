@@ -1,6 +1,6 @@
 from sklearn import tree
 
-#classificar
+#classifica
 
 features = [[140,"liso"],[130,"liso"],[150,"irregular"],[170,"irregular"]]
 label = ["maca","maca","laranja","laranja"]
