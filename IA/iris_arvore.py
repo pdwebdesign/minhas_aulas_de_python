@@ -39,4 +39,4 @@ print(clf.predict(test_data))#quer dizer que acertou todos
 #print(iris.data[0])
 #print(clf.predict([[6.3,2.5,5.0,1.9]]))
 
-
+#ARVORE DE DECISAO
